@@ -20,6 +20,7 @@ Configuración de entorno · DHCP · DNS · Apache · Usuarios · Permisos · Ch
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 &nbsp;
+[![CI](https://github.com/Fernandamv96/Linux-Evaluaci-n-Pro-/actions/workflows/ci.yml/badge.svg)](https://github.com/Fernandamv96/Linux-Evaluaci-n-Pro-/actions/workflows/ci.yml)
 ![React](https://img.shields.io/badge/React-18.2-61DAFB?style=flat-square&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5.1-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)
@@ -32,6 +33,8 @@ Configuración de entorno · DHCP · DNS · Apache · Usuarios · Permisos · Ch
 ---
 
 ## ✨ Vista general
+
+![Inicio de la guía Linux Server PRO](docs/preview.png)
 
 Esta aplicación es una **guía educativa interactiva** pensada para estudiantes que deben rendir una evaluación práctica de administración de servidores Linux. Reemplaza los PDFs estáticos con una experiencia tipo dashboard moderna: navegación lateral, bloques de código con botón copiar, checklist con barra de progreso en tiempo real y visualización de permisos `rwx`.
 
@@ -263,9 +266,21 @@ git push origin fix/nombre-del-arreglo
 
 ---
 
+## 🔒 Calidad y seguridad
+
+- CI en cada push y PR: ESLint + build de Vite.
+- CodeQL (análisis estático), Dependabot (npm y Actions) y gitleaks en pre-commit.
+- Para reportar vulnerabilidades, mira [SECURITY.md](SECURITY.md).
+
+## 💡 Qué aprendí
+
+- A configurar un servidor Ubuntu con DHCP, DNS y Apache, y a verificar cada servicio.
+- A administrar usuarios, grupos y permisos con el principio de mínimo privilegio.
+- A centralizar el contenido técnico en datos (`src/data/content.js`) para que la interfaz se actualice sola.
+
 ## 📄 Licencia
 
-MIT — libre para usar, modificar y distribuir con atribución.
+[MIT](LICENSE) — libre para usar, modificar y distribuir con atribución.
 
 ---
 
