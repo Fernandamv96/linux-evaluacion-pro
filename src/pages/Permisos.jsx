@@ -1,5 +1,5 @@
 // src/pages/Permisos.jsx
-import { Lock, AlertTriangle, CheckCircle } from 'lucide-react';
+import { AlertTriangle, CheckCircle } from 'lucide-react';
 import SectionTitle from '../components/SectionTitle.jsx';
 import CodeBlock from '../components/CodeBlock.jsx';
 import { permisosData, comandosPermisos } from '../data/content.js';
