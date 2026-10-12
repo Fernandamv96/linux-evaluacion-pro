@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import { CheckSquare, Square, Terminal, RotateCcw } from 'lucide-react';
 import SectionTitle from '../components/SectionTitle.jsx';
-import CodeBlock from '../components/CodeBlock.jsx';
 import { checklistPruebas } from '../data/content.js';
 
 const colorMap = {
